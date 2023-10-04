@@ -1,5 +1,5 @@
-# Simple CRUD Web using PHP Native with API
+# Demo Online
 
-## [Demo Online] (https://sdlab.polbeng.web.id/web/rpl_6a/kelompok8_buah.in/index.php)
+Klik [di sini](https://www.example.com) untuk melihat demo online.
 
-![Preview](image/Buah.in Thumbnail.png)
+![Buah Thumbnail](img/Buah.in%20Thumbnail.png)
