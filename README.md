@@ -1,6 +1,6 @@
 # Buah.in Web | Simple CRUD Web PHP Native + API
 
 ## Description
-This is one of my assignments in the Multiplatform Programming course, involving the creation of a simple web-based application that includes CRUD (Create, Read, Update, Delete) operations as well as authentication (Login, Register, Logout, and Cookies). Additionally, there is a mobile component connected through a REST API to perform data reading from the web application. The web component is developed by my group members using the PHP programming language, without the use of frameworks such as CodeIgniter (CI) or Laravel. In addition to the web application, we have also created an API using PHP.
+This is one of my assignments in the Multiplatform Programming course, this assignment involves creating a Web-based application that contains CRUD (Create, Read, Update, Delete) & Authentication (Login, Register, Logout, Remember me) and Mobile operations that will display data from the web application via the REST API. My group friends and I developed this web application using the PHP programming language, without using a framework such as CodeIgniter (CI) or Laravel.
 
 ![Buah Thumbnail](img/Buah.in%20Thumbnail.png)
