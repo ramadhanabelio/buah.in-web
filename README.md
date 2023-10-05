@@ -1,11 +1,6 @@
-# Buah.in Web | Simple CRUD Web using PHP Native + API
+# Buah.in Web | Simple Web Apps with PHP Native (CRUD + Auth)
 
 ## Description
-
-#### Indonesia
-Ini adalah salah satu tugas saya pada mata kuliah Pemrograman Multiplatform yaitu membuat aplikasi berbasis Web dan Mobile yang terkoneksi melalui REST-API. Web ini dibuat dengan anggota kelompok saya menggunakan bahasa pemrograman PHP tanpa menggunakan framework seperti CI ataupun Laravel, selain web disini juga terdapat API yang dibangun menggunakan PHP juga.
-
-#### English
-This is one of my assignments in the Multiplatform Programming course, which involves creating a Web and Mobile application that connects through a REST API. The web component is developed by my group members using the PHP programming language, without the use of frameworks such as CodeIgniter (CI) or Laravel. In addition to the web application, there is also an API built using PHP.
+This is one of my assignments in the Multiplatform Programming course, this assignment involves creating a Web-based application that contains CRUD (Create, Read, Update, Delete) & Authentication (Login, Register, Logout, Remember me) and Mobile operations that will display data from the web application via the REST API. My group friends and I developed this web application using the PHP programming language, without using a framework such as CodeIgniter (CI) or Laravel.
 
 ![Buah Thumbnail](img/Buah.in%20Thumbnail.png)
