@@ -1,5 +1,4 @@
 <?php
-
 // Koneksi ke Database
 $host = 'localhost';
 $db = 'buah.in';

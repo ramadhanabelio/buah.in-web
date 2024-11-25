@@ -1,9 +1,9 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 04, 2023 at 04:09 PM
+-- Generation Time: Nov 25, 2024 at 07:00 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -38,8 +38,7 @@ CREATE TABLE `tbl_admin` (
 --
 
 INSERT INTO `tbl_admin` (`id`, `username`, `password`) VALUES
-(1, 'admin', '$2y$10$u8C3v10MBbbzNA.zAOTLDuAMkm5SgRtz7TQwR.re8DsXJXAO8YHQW'),
-(7, 'ramadhan.abelio', '$2y$10$tWN6f5UjoN3nF71dnAyPPOtV1zRY07SH9c04.OrITqMCokcdG6kee');
+(1, 'admin-buah.in', '$2y$10$p/WSTPkmVLeUa3rGDr2ScuJkPNiHwiEBCG6wYc915AcmVmmPyIWY6');
 
 -- --------------------------------------------------------
 
@@ -70,8 +69,8 @@ INSERT INTO `tbl_buah` (`id`, `nama`, `deskripsi`, `gambar`, `link_gambar`) VALU
 (8, 'Pisang', 'Pisang adalah nama umum yang diberikan pada tumbuhan terna berukuran besar dengan daun memanjang dan besar yang tumbuh langsung dari bagian tangkai. Batang pisang bersifat lunak karena terbentuk dari lapisan pelepah yang lunak dan panjang. Batang yang agak keras berada di bagian permukaan tanah.', '647cac6ac0afd.png', 'https://www.canva.com/design/DAFkFmUD7oI/vUU9a9S1uiEiBC5-zBBMhg/view?utm_content=DAFkFmUD7oI&amp;utm_campaign=designshare&amp;utm_medium=link&amp;utm_source=homepage_design_menu'),
 (9, 'Ceri', 'Ceri adalah buah dari banyak tanaman genus Prunus, dan merupakan buah berbiji berdaging. Ceri komersial diperoleh dari kultivar beberapa spesies, seperti Prunus avium yang manis dan Prunus cerasus yang asam.', '647cac806a3a9.png', 'https://www.canva.com/design/DAFkFth9nv4/n8pNPx1BI1hVoWX2EKd4Dw/view?utm_content=DAFkFth9nv4&amp;utm_campaign=designshare&amp;utm_medium=link&amp;utm_source=homepage_design_menu'),
 (10, 'Nanas', 'Nanas adalah tumbuhan tropis dengan buah yang dapat dimakan dan tumbuhan yang paling penting secara ekonomi dalam famili Bromeliaceae. Nanas adalah tumbuhan asli Amerika Selatan, dan telah dibudidayakan disana selama berabad-abad.', '647cac94b52aa.png', 'https://www.canva.com/design/DAFkFi8vkGY/o8b_9-XlJSCbpOxtlniHeA/view?utm_content=DAFkFi8vkGY&amp;utm_campaign=designshare&amp;utm_medium=link&amp;utm_source=homepage_design_menu'),
-(12, 'Bluberi', 'Bluberi atau beri biru adalah tanaman berbunga dalam genus Vaccinium, bagian Cyanococcus. Spesies ini tumbuh di Amerika Utara. Berupa semak yang ukurannya mulai 10 cm hingga 4 m; spesies terkecil dikenal sebagai &quot;bluberry semak rendah&quot;, dan spesies terbesar adalah &quot;bluberi semak tinggi&quot;.', '647cacc2ee5de.png', 'https://www.canva.com/design/DAFkFu9sLsU/4zDPQsTux0WArWVs1sgkIw/view?utm_content=DAFkFu9sLsU&amp;utm_campaign=designshare&amp;utm_medium=link&amp;utm_source=homepage_design_menu'),
-(24, 'Persik', 'Persik adalah tanaman berbuah dari famili Rosaceae. Buah ini disebut juga sebagai buah táo dalam bahasa Mandarin dan momo dalam bahasa Jepang. Buah persik, kadang disebut nektarina, memiliki daging berwarna kuning dengan aroma harum dan memiliki satu biji yang keras.', '648108531474c.png', 'https://www.canva.com/design/DAFkFpuvOzY/W3dcqOc1meSb9OlAGgOrnA/view?utm_content=DAFkFpuvOzY&amp;utm_campaign=designshare&amp;utm_medium=link&amp;utm_source=homepage_design_menu');
+(11, 'Bluberi', 'Bluberi atau beri biru adalah tanaman berbunga dalam genus Vaccinium, bagian Cyanococcus. Spesies ini tumbuh di Amerika Utara. Berupa semak yang ukurannya mulai 10 cm hingga 4 m; spesies terkecil dikenal sebagai &quot;bluberry semak rendah&quot;, dan spesies terbesar adalah &quot;bluberi semak tinggi&quot;.', '647cacc2ee5de.png', 'https://www.canva.com/design/DAFkFu9sLsU/4zDPQsTux0WArWVs1sgkIw/view?utm_content=DAFkFu9sLsU&amp;utm_campaign=designshare&amp;utm_medium=link&amp;utm_source=homepage_design_menu'),
+(12, 'Persik', 'Persik adalah tanaman berbuah dari famili Rosaceae. Buah ini disebut juga sebagai buah táo dalam bahasa Mandarin dan momo dalam bahasa Jepang. Buah persik, kadang disebut nektarina, memiliki daging berwarna kuning dengan aroma harum dan memiliki satu biji yang keras.', '648108531474c.png', 'https://www.canva.com/design/DAFkFpuvOzY/W3dcqOc1meSb9OlAGgOrnA/view?utm_content=DAFkFpuvOzY&amp;utm_campaign=designshare&amp;utm_medium=link&amp;utm_source=homepage_design_menu');
 
 --
 -- Indexes for dumped tables
@@ -97,7 +96,7 @@ ALTER TABLE `tbl_buah`
 -- AUTO_INCREMENT for table `tbl_admin`
 --
 ALTER TABLE `tbl_admin`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `tbl_buah`

@@ -89,7 +89,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 						<td><?= $row["deskripsi"]; ?></td>
 						<td class="aksi">
 							<a href="ubah.php?id=<?php echo $row['id']; ?>" class="badge bg-warning"><i class="bi bi-pencil-square"></i></a>
-							<button type="button" class="badge bg-danger" data-bs-toggle="modal" data-bs-target="#hapusModal<?php echo $row['id']; ?>"><i class="bi bi-trash3"></i></button>
+							<button type="button" class="badge bg-danger border-0" data-bs-toggle="modal" data-bs-target="#hapusModal<?php echo $row['id']; ?>"><i class="bi bi-trash3"></i></button>
 						</td>
 					</tr>
 

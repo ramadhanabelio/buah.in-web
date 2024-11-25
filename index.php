@@ -23,17 +23,17 @@
 <header class="navbar navbar-expand-lg fixed-top bg-white shadow-sm">
 	<div class="container">
 		<a href="index.php"><img src="img/Buah.in (500 × 175 px).png" class="navbar-brand" height="45"></a>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
-		</button>
+		</button> -->
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
-			<form class="d-flex" role="search">
-				<div class="container">
-					<a href="login.php" class="btn" type="submit" title="Masuk" style="background-color: #33860b; color:#ffffff">Masuk</a>
-				</div>
-			</form>
 		</div>
+		<form class="d-flex" role="login">
+			<div class="container">
+				<a href="login.php" class="btn" type="submit" title="Masuk" style="background-color: #33860b; color:#ffffff">Masuk</a>
+			</div>
+		</form>
 	</div>
 </header> <br> <br>
 <!-- Navbar End -->

@@ -128,8 +128,8 @@ if (isset($_POST["login"])) {
 
 				<!-- Remember me Start -->
 				<div class="container-fluid mb-3">
-					<input type="checkbox" name="remember" id="remember">
-					<label for="remember">Remember me</label>
+					<input class="form-check-input" type="checkbox" name="remember" id="remember">
+					<label class="form-check-label" for="remember">Remember me</label>
 				</div>
 				<!-- Remember me End -->
 
