@@ -10,17 +10,7 @@ body {
   padding-bottom: 40px;
 }
 
-.masuk {
-  text-decoration: none;
-  color: #33860b;
-  font-weight: 700;
-}
-
-.masuk:hover {
-  color: #28a745;
-}
-
-.form-register {
+.form-auth {
   max-width: 330px;
   padding: 15px;
 }

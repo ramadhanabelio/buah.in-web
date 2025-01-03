@@ -18,8 +18,3 @@
     font-size: 14px;
   }
 }
-
-.hapus-btn {
-  border: none; /* Menghapus tepian tombol */
-  background-color: transparent; /* Menghapus latar belakang tombol */
-}

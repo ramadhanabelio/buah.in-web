@@ -1,27 +1,13 @@
 <?php
-// Koneksi ke Database
-$host = 'localhost';
-$db = 'buah.in';
-$user = 'root';
-$password = '';
-
-try {
-    $connection = new PDO("mysql:host=$host;dbname=$db", $user, $password);
-    $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch (PDOException $e) {
-    echo json_encode(array('status' => 'error', 'message' => 'Gagal terkoneksi dengan database'));
-    exit();
-}
+require '../functions.php';
 
 header('Content-Type: application/json');
 
-// API Endpoint: Welcome Server
 if ($_SERVER['REQUEST_METHOD'] === 'GET' && empty($_GET['action'])) {
     echo json_encode(array('status' => 'success', 'message' => 'Selamat datang di API Buah.in'));
     exit();
 }
 
-// API Endpoint: Get All Data
 if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['action']) && $_GET['action'] == 'get_all_data') {
     $query = $connection->prepare('SELECT id, nama, deskripsi, gambar, link_gambar FROM tbl_buah');
     $query->execute();
@@ -34,7 +20,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['action']) && $_GET['act
     }
 }
 
-// API Endpoint: Get Data by ID
 if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['action']) && $_GET['action'] == 'get_data_by_id') {
     $id = $_GET['id'];
     $query = $connection->prepare('SELECT id, nama, deskripsi, gambar, link_gambar FROM tbl_buah WHERE id = :id');

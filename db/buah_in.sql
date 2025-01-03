@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 25, 2024 at 07:00 PM
+-- Generation Time: Jan 03, 2025 at 10:22 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -38,7 +38,7 @@ CREATE TABLE `tbl_admin` (
 --
 
 INSERT INTO `tbl_admin` (`id`, `username`, `password`) VALUES
-(1, 'admin-buah.in', '$2y$10$p/WSTPkmVLeUa3rGDr2ScuJkPNiHwiEBCG6wYc915AcmVmmPyIWY6');
+(1, 'admin-buah.in', '$2y$10$mpavzN6wSAkBHpX9AJPgn.CW9m5Rm2PSSOiPlAr/5SJP.XQEMn2ua');
 
 -- --------------------------------------------------------
 
@@ -102,7 +102,7 @@ ALTER TABLE `tbl_admin`
 -- AUTO_INCREMENT for table `tbl_buah`
 --
 ALTER TABLE `tbl_buah`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=43;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

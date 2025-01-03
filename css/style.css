@@ -1,0 +1,60 @@
+.green {
+  color: #33860b;
+  text-decoration: none;
+}
+
+.green:hover {
+  color: #2b7008;
+  text-decoration: none;
+}
+
+.btn-green {
+  background-color: #33860b;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn-green:hover {
+  border: 1px solid #33860b;
+  color: #33860b;
+  text-decoration: none;
+}
+
+.btn-outline-green {
+  border: 1px solid #33860b;
+  color: #33860b;
+  text-decoration: none;
+}
+
+.btn-outline-green:hover {
+  background-color: #33860b;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* API */
+.container-api {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column-reverse;
+}
+
+.btn-green-api {
+  border: 1px solid #33860b;
+  color: #33860b;
+  border-radius: 0;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.btn-green-api:hover {
+  background-color: #33860b;
+  color: #fff;
+  border-radius: 0;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+}

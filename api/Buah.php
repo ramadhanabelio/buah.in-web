@@ -1,5 +1,5 @@
 <?php
-require_once "koneksi.php";
+require '../functions.php';
 
 class Buah
 {
